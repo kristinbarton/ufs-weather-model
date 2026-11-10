@@ -818,9 +818,9 @@ case ${MACHINE_ID} in
     COMPILE_QUEUE="batch"
 
     PARTITION="u1-compute"
-    dprefix="/scratch4/NCEPDEV/stmp/${USER}"
+    dprefix="/scratch4/BMC/ufs-artic/Kristin.Barton/stmp/ufs-ca-tests/"
     if [[ "${ACCNR}" == 'epic' ]] ; then
-      dprefix="/scratch4/NAGAPE/epic/${USER}/stmp"
+      dprefix="/scratch4/BMC/ufs-artic/Kristin.Barton/stmp/ufs-ca-tests/"
     fi
     DISKNM="/scratch4/NAGAPE/epic/role-epic/UFS-WM_RT"
     STMP="${STMP:-${dprefix}/RT_BASELINE}"

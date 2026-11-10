@@ -1,15 +1,15 @@
 [submodule "UFSATM"]
   path = UFSATM
-  url = https://github.com/NOAA-EMC/ufsatm
-  branch = develop
+	url = https://github.com/kristinbarton/ufsatm.git
+	branch = ca-dev
 [submodule "WW3"]
   path = WW3
   url = https://github.com/NOAA-EMC/WW3
   branch = dev/ufs-weather-model
 [submodule "stochastic_physics"]
   path = stochastic_physics
-  url = https://github.com/NOAA-PSL/stochastic_physics
-  branch = master
+	url = https://github.com/kristinbarton/stochastic_physics.git
+	branch = standalone-ca
 [submodule "CMakeModules"]
   path = CMakeModules
   url = https://github.com/NOAA-EMC/CMakeModules

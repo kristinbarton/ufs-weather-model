@@ -1,1 +1,4 @@
-
+control_c48 intel
+control_stochy intel
+control_stochy_restart intel
+control_stochy_debug intel
